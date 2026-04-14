@@ -1,8 +1,0 @@
-flask
-pypdf
-scikit-learn
-nltk
-pandas
-numpy
-reportlab
-gunicorn
