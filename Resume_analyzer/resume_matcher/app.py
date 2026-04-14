@@ -2,7 +2,7 @@ from pathlib import Path
 
 from flask import Flask, redirect, render_template, request, send_file, url_for
 
-from matcher import analyze_match, compare_resumes
+from resume_matcher.matcher import analyze_match, compare_resumes
 from parser import extract_pdf_text
 from pdf_report import build_pdf_report
 
